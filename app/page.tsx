@@ -231,7 +231,7 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-1">
         <p className='text-2xl font-semibold px-6' >The Team</p>
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
