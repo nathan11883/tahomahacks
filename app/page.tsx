@@ -27,10 +27,11 @@ export default function Home() {
 
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+        <a className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30" 
+        href="https://www.cpmentorship.org/events/tahoma-hacks"  target='blank'>
           Compass Point Mentorship&nbsp;
           <code className="font-mono font-bold"></code>
-        </p>
+        </a>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
@@ -51,10 +52,36 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[600px] before:w-[640px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] min-h-screen">
-        <p className="text-7xl">
+      <div className="flex flex-col justify-center items-center min-h-screen min-w-screen
+      	  after:absolute after:-z-20 after:h-[380px] after:w-[240px] after:translate-x-1/3 
+	        after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl 
+	        after:content-[''] after:bottom-40 after:left-40
+	        after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 ">
+        <p className="text-7xl self-center">
           TAHOMA HACKS 2023
         </p>
+        <br/>
+        <p className="text-xl self-center">
+          June 4th, 2023 10AM - 9PM
+        </p>
+        <br/>
+        <a className='text-sm self-center  hover:bg-blue-900 hover:underline active:bg-blue-900 active:underline active:font-bold'  href="https://goo.gl/maps/Pr4cGPDQqGswGZGk7" target='blank'>
+        285 Blossom Hill Road
+        San Jose, CA 95123
+        </a>
+        <a className='text-sm self-center hover:bg-blue-900 hover:underline active:bg-blue-900 active:underline active:font-bold' href="https://goo.gl/maps/Pr4cGPDQqGswGZGk7"  target='blank'>
+        (entrance at 5520 Eagles Lane)
+        </a>
+        <br/>
+        <br/>
+        <a href="https://www.cpmentorship.org/events/tahoma-hacks"  target='blank'>
+        <button className="text-pink-500 border border-pink-500 hover:bg-pink-500 hover:text-white active:bg-pink-600 font-bold uppercase px-8 py-3 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">
+        Register Now
+          </button>
+        </a>
+      
+
+
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
