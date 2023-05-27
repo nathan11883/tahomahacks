@@ -226,7 +226,85 @@ export default function Home() {
             />
         </div>
       </div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
+        <p className='text-2xl font-semibold px-6' >The Team</p>
+      </div>
+      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold opacity-80`}>
+          Nathan Yao{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          President, Summit High School, Rising senior.
+          </p>
+        </div>
 
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold opacity-80`}>
+           Alex Liang{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Head Hacker, Mitty High School, Rising senior.
+          </p>
+        </div>
+
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold opacity-80`}>
+          William Liu{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Logistic, Summit High School, Rising senior
+          </p>
+        </div>
+
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold opacity-80`}>
+          Brady Quo{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Operation, Palo Alto High School, Rising senior
+          </p>
+        </div>
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold opacity-80`}>
+          Ranya Zhang{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Design, Homestead High, Rising freshman.
+          </p>
+        </div>
+        <div
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-xl font-semibold opacity-80`}>
+          William Tang{' '}
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+          Marketing, Hillbrook, Rising freshman.
+          </p>
+        </div>
+      </div>
     </main>
 
   )
