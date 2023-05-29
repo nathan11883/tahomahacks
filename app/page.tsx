@@ -10,7 +10,7 @@ function createData(
 
 const agenda = [
   createData("10:00 AM", "Check in"),
-  createData("10:15 AM", "Keynote Speaking"),
+  createData("10:15 AM", "Keynote Speaker"),
   createData("10:30 AM", "Water Quality/Conservation topic introduction & Rules"),
   createData("10:45 AM", "Workshops / Coding"),
   createData("12:00 PM", "Lunch / Coding"),
@@ -105,7 +105,7 @@ export default function Home() {
           What are hackathons?{' '}
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          A hackathon is an all-day event, with Free Food, where middle schoolers and high schoolers get in groups and compete to solve a a topic around a theme for prizes. There will also be speakers at the beginning and end of the event telling us their storys.
+          A hackathon is an all-day event, with Free Food, where middle schoolers and high schoolers get in groups and compete to solve a a topic around a theme for prizes. There will also be speakers at the beginning and end of the event telling us their stories.
           </p>
         </div>
 
@@ -170,7 +170,7 @@ export default function Home() {
       </div>
      
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
-        <p className='text-2xl font-semibold px-6' >Soponsors</p>
+        <p className='text-2xl font-semibold px-6' >Sponsors</p>
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-2 lg:text-left">
         <div
@@ -279,7 +279,7 @@ export default function Home() {
           Brady Quo{' '}
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          Operation, Palo Alto High School, Rising senior
+          Operation, Sacred Heart High School, Rising junior
           </p>
         </div>
         <div
